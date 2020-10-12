@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 90px;
+}
+
+.header h1{
+	font-size: 25px;
+}
+
+.header p{
+	font-size: 19px;
+	font-weight: bold;
+	padding-bottom: 10px
+}
+
+.header img{
+	height:135px;
+	width: 150px;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.container .form input{
+	font-size: 14px;
+	padding: 3px;
+	border: 2px solid #a9a9a9;
+}
+
+.container .lists ul, .container .lists ol{
+	padding-left: 45px;
+}
+
+.container .lists li{
+	padding-left: 18px;
+	padding-bottom: 2px;
+
+}
+
+.container .lists .toplist:nth-child(2){
+	color: blue;
+}
+
+.container .lists .toplist span{
+	color: red;
+}
+
+.container .lists .toplist:nth-child(4){
+	color: red;
+}
+
+.container .lists .toplist:nth-child(odd){
+	color: blue;
+}
+
+.container .lists .bottomlist:nth-child(2){
+	font-weight: bold;
+}
+
+.table table{
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 14px;
+	table-layout: fixed;
+}
+
+.table table th, .table table td{
+	border-right: 1px solid black;
+	padding: 2px 0 11px 7px;
+}
+
+.table table th{
+	text-align: left;
+	font-weight: bold;
+}
+
+.table table td{
+	border-top: 1px solid black;
+}
+
+footer{
+	text-align: center;
+	font-size: 14px;
+	margin: 50px 0 95px 0;
+}
